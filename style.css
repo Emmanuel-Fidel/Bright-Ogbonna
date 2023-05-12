@@ -48,13 +48,13 @@ header .logo{
     color: #666;
 }
 
-header .navbar a{
+header .navbar1 a{
     font-size: 2rem;
     margin-left: 2rem;
     color: #666;
 }
 
-header .navbar a:hover{
+header .navbar1 a:hover{
     color: red;
 }
 
@@ -152,7 +152,7 @@ header .navbar a:hover{
         display: initial;
     }
 
-    header .navbar{
+    header .navbar1{
         position: absolute;
         top: 100%; left: 0;right: 0;
         background: white;
@@ -160,11 +160,11 @@ header .navbar a:hover{
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
-    header .navbar.active{
+    header .navbar1.active{
        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
-    header .navbar a{
+    header .navbar1 a{
         margin: 1.5rem;
         padding: 1.5rem;
         display: block;
